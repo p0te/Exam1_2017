@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  9 JUN 2017 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  12 JUN 2017 12:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -173,56 +173,56 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-[1
-
-
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+[2] [3]
 Study Unit 2.
-[3
+[4
 
 ]
 Study Unit 3.
-[4
+[5
 
-] [5] [6] [7]
+] [6] [7] [8]
 Study Unit 4.
-[8
+[9
 
-] [9]
+] [10]
 Study Unit 5.
-[10
+[11
 
-] [11]
+] [12]
 Study Unit 6.
-[12
-
-]
-Study Unit 7.
 [13
 
 ]
-Study Unit 8.
+Study Unit 7.
 [14
 
 ]
-Study Unit 9.
+Study Unit 8.
 [15
 
 ]
-Study Unit 10.
+Study Unit 9.
 [16
 
-] [17] [18] (./main.aux) ) 
+]
+Study Unit 10.
+[17
+
+] [18] [19] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2060 strings out of 494902
- 23854 string characters out of 6180032
- 74659 words of memory out of 5000000
- 5386 multiletter control sequences out of 15000+600000
+ 2061 strings out of 494902
+ 23887 string characters out of 6180032
+ 75659 words of memory out of 5000000
+ 5387 multiletter control sequences out of 15000+600000
  14250 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  34i,15n,24p,623b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -243,10 +243,10 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/tipa/tipa10.pfb>
-Output written on main.pdf (18 pages, 218611 bytes).
+Output written on main.pdf (19 pages, 225511 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

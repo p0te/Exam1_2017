@@ -18,7 +18,20 @@
 	\end{multicols}
 	
 \end{itemize}
-	
+	\section{refreser on mason's formula}
+	\label{sec:refreser on mason's formula}
+	Used to convert a signal flow diagram into a transfer function. 
+	\begin{itemize}
+		\item Determine forward paths
+		\item Determine loops
+	\end{itemize}
+	\begin{align*}
+		\label{eq:}
+		G = \frac{y_{out}}{y_{in}} &= \frac{\sum^{N}_{k=1}G_k\Delta_k}{\Delta} \\
+		\Delta &= 1 - \sum L_{i: \text{all loops}} + \sum L_{i}L_{j \text{( 2 loops not touching)}}\\
+		\Delta_k &= \text{Delta for fwd path k, with loops touching this path removed}\\
+		G_k &= \text{Path gain for forward path k}\
+	\end{align*}
 	\section{Controllability}
 	\label{sub:controllability}
 {\bf Formal Defenition of controllability:}\emph{A system is completely controllable if there exists an unconstrained control u(t) that can transfer any initial state $x(t_0)$ To any other desired location $x(t)$ in a finite time $t_0 \leq t \leq T$}\\
@@ -72,7 +85,7 @@ Remember from algerbra 2 that if a set of differential equations in the form $\m
 
 Way to calculate K with less variables. Set $u = -k\mathbf{x}$ and let $q(\lambda)$ be the desired charachteristic eqn. (as dictated by P.O ans Ts) then:
 \begin{align*}
-	\mathbf{k} &= [0 1 \dots 1]\mathbf{P}^-1q(A);
+	\mathbf{k} &= [0 0 \dots 1]\mathbf{P_c}^{-1}q(A);
 \end{align*}
 Type A into calculator and apply q(A). Multiply [0 1] first since this is easier
 % subsection ackerman_s_equation (end)
@@ -283,6 +296,16 @@ $e(t)$ at any set of sampling points spaced $1/(2f_0 )$ seconds apart
 	\emph{example 4.4 is important}
 	\section{Open loop system with a digital filter}
 	\section{The modified Z transform and time delays}
+	\section{Deriving the sampled output from a block diagram}
+	\begin{description}
+		\item[Step 1] Construct the original Signal flow diagram, replace samplers(similar to a switch) with open circuits, since they cannot be expressed in a SF diagram. 
+		\item[Step 2] Assign a Variable to each sampler input. The output is the input starred.(Typically $E_n - E^*_n, n = 1,2,3 \ldots$ is used) 
+		\item[Step 3] 
+			\subitem Consider each sampler output a system input
+			\subitem Consider each sampler input a system output
+			\subitem Write each output as a function of the system inputs
+		\item[Step 4] Take the starred transform of each of these equations and solve by any convenient method. Draw the sampled signal flow diagram
+	\end{description}
 \chapter{LE6 Pulse transfer funcions for closed loop systems}
 \section{sums}
 \begin{itemize}
