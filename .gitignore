@@ -4,3 +4,5 @@
 ./EERI418/Modern Control Systems.pdf
 ./EERI418/Phillips - Instructors manual  - Digital control system analysis and design 3rd ed.pdf
 ./REII414/Database Systems - Design, Implementation, and Management (9th Edition).pdf
+*.swp
+*.swo
