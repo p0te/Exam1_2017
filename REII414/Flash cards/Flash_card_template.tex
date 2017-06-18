@@ -227,7 +227,7 @@ attribute B}
 %apply design compromises based on sound principles and conventions.
 \newheading{SQL queries}
 \qa{Briefly describe select syntax}{SELECT $<$fields$>$ FROM$<$tables$>$ WHERE$<$conditions$>$ } 
-\qa{Briefly describe update syntax}{UPDATE$<$tabls$>$ SET $<$field = new$>$ WHERE $<$condition$>$  }
+\qa{Briefly describe update syntax}{UPDATE$<$table$>$ SET $<$field = new$>$ WHERE $<$condition$>$  }
 \qa{state the SQL function for returning the average}{AVG()} 
 \qa{state the SQL function for returning the number of rows}{COUNT()} 
 \qa{state the SQL function for returning the first value}{FIRST()} 
@@ -237,6 +237,11 @@ attribute B}
 \qa{state the SQL function for returning the sum}{SUM()} 
 \qa{state the SQL function for returning a numeric field to specific number of decimals }{ROUND()} 
 
+\newheading{Exam: missing info}
+\qa{What is the difference between a row level trigger and a table level trigger}{A trigger is code that ex executed in response to certain events, usually when data changes. Row level triggers are executed when data in a given row changes, whereas table level triggers execute when data in a given table changes.  } 
+\qa{How Does SQL injection work}{Web applications are manipulated in order to execute malicious queries, for example by typing in ' 1 = 1 into a search box} 
+\qa{Give an example of a redundant relationship in ERD}{ANS} 
+\qa{How would one execute a right join if the system can only execute left joins}{ execute a left join, but swap the tables} 
 \end{longtable}
 
 \end{document}

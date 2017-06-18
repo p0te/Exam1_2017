@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.12)  22 MAR 2017 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  18 JUN 2017 16:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -189,7 +189,7 @@ LaTeX Info: Redefining \] on input line 2818.
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -243,7 +243,7 @@ LaTeX Font Info:    ... okay on input line 34.
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks26
 ) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -361,8 +361,8 @@ ML/cmm/m/it/12 >$
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 230--230
-[]|\OT1/cmr/m/n/12 2) UPDATE$\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 tabls$\OML/cmm/
+Underfull \hbox (badness 4279) in paragraph at lines 230--230
+[]|\OT1/cmr/m/n/12 2) UPDATE$\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 table$\OML/cmm/
 m/it/12 >$ \OT1/cmr/m/n/12 SET $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 field = new$
 \OML/cmm/m/it/12 >$
  []
@@ -372,27 +372,31 @@ Overfull \hbox (53.9029pt too wide) in alignment at lines 228--240
  [] [] 
  []
 
+
+Overfull \hbox (53.9029pt too wide) in alignment at lines 240--245
+ [] [] 
+ []
+
 [5] (./Flash_card_template.aux) ) 
 Here is how much of TeX's memory you used:
- 3143 strings out of 494902
- 43594 string characters out of 6180032
- 131038 words of memory out of 5000000
- 6400 multiletter control sequences out of 15000+600000
+ 3144 strings out of 494902
+ 43598 string characters out of 6180032
+ 131074 words of memory out of 5000000
+ 6401 multiletter control sequences out of 15000+600000
  8003 words of font info for 29 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,9n,28p,284b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,28p,353b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
 .pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Flash_card_template.pdf (5 pages, 91417 bytes).
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Flash_card_template.pdf (5 pages, 84385 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
