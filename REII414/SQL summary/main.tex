@@ -305,5 +305,16 @@ FROM VENDOR FULL JOIN PRODUCT ON VENDOR.
 V_CODE = PRODUCT.V_CODE;
 	
 \end{lstlisting}
+\section{Triggers}
+\subsection{syntax}
+\begin{lstlisting}
+	CREATE OR REPLACE TRIGGER trigger_name
+[BEFORE / AFTER] [DELETE / INSERT / UPDATE OF column_name] ON table_name
+[FOR EACH ROW]
+[DECLARE]
+[variable_namedata type[:=initial_value] ]
+BEGIN
+PL/SQL instructions;
+\end{lstlisting}
 
 \end{document}
