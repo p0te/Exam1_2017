@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  19 JUN 2017 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  19 JUN 2017 12:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -323,14 +323,14 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Missing character: There is no ’ in font cmr12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
 (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 45--125
+Overfull \hbox (53.9029pt too wide) in alignment at lines 45--124
  [] [] 
  []
 
@@ -339,45 +339,45 @@ Overfull \hbox (53.9029pt too wide) in alignment at lines 45--125
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no ’ in font cmr12!
 
-Underfull \hbox (badness 2359) in paragraph at lines 188--188
+Underfull \hbox (badness 2359) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/12 14)  pro-vides a de-tailed de-scrip-tion of all
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 125--196
+Overfull \hbox (53.9029pt too wide) in alignment at lines 124--195
  [] [] 
  []
 
 [2] [3]
-Overfull \hbox (53.9029pt too wide) in alignment at lines 196--228
+Overfull \hbox (53.9029pt too wide) in alignment at lines 195--226
  [] [] 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\OT1/cmr/m/n/12 1) SE-LECT $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 fields$\OML/c
 mm/m/it/12 >$ \OT1/cmr/m/n/12 FROM$\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 tables$\O
 ML/cmm/m/it/12 >$
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 230--230
+Underfull \hbox (badness 4279) in paragraph at lines 228--228
 []|\OT1/cmr/m/n/12 2) UPDATE$\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 table$\OML/cmm/
 m/it/12 >$ \OT1/cmr/m/n/12 SET $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 field = new$
 \OML/cmm/m/it/12 >$
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 228--240
+Overfull \hbox (53.9029pt too wide) in alignment at lines 226--238
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 240--245
+Overfull \hbox (53.9029pt too wide) in alignment at lines 238--252
  [] [] 
  []
 
-[5] (./Flash_card_template.aux) ) 
+[5] [6] (./Flash_card_template.aux) ) 
 Here is how much of TeX's memory you used:
  3144 strings out of 494902
  43598 string characters out of 6180032
@@ -386,17 +386,17 @@ Here is how much of TeX's memory you used:
  8003 words of font info for 29 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,7n,28p,353b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Flash_card_template.pdf (5 pages, 84441 bytes).
+<c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Flash_card_template.pdf (6 pages, 85061 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
