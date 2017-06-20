@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{multicol} 
+\usepackage{amsmath} 
 \author{MJ Bezuidenhout}
 \title{EERI423 Exam breakdown 2013-2016}
 
@@ -9,7 +10,7 @@
 \section{2016}
 \begin{itemize}
 	\item Question 1
-		\subitem Elements of a commmunication system 
+		\subitem Elements of a communication system 
 		\subitem Block diagram of a phase locked loop synth
 	\item Question 2
 		\subitem Square law mixer
@@ -18,7 +19,7 @@
 		\subitem Block diagram modern direct conversion Receiver
 	\item Question 3
 		\subitem Duplexing
-		\subitem Shannon-hartley eqn
+		\subitem Shannon-Hartley eqn
 		\subitem Fading margin
 		\subitem LTE
 	\item Question 4
@@ -31,12 +32,12 @@
 \begin{itemize}
 	\item Question 1
 		\subitem Baseband vs broadband
-		\subitem mutiplexing
+		\subitem multiplexing
 		\subitem Quantizing noise
 	\item Question 2
-		\subitem Block diagram of a mdoern digital transmitter
+		\subitem Block diagram of a modern digital transmitter
 		\subitem Block diagram of a direct digital synthesizer
-		\subitem Receuver noise calcs
+		\subitem Receiver noise calcs
 		\subitem theory
 			\subsubitem SDR	
 			\subsubitem Mixer in a digital synth	
@@ -65,7 +66,7 @@
 			\subsubitem GMSK
 			\subsubitem FDD vs TDD
 			\subsubitem OFDM
-		\subitem Shannon-hartley eqn
+		\subitem Shannon-Hartley eqn
 	\item Question 4
 		\subitem Path loss
 	\item Question 5
@@ -85,19 +86,29 @@
 	\item Question 3
 		\subitem 2 types of spread spectrum
 		\subitem 3 advantages of spread spectrum
-		\subitem Block diegram of a carrier recovery circuit for BPSK modulation
-		\subitem Shannon-hartley eqn
+		\subitem Block diagram of a carrier recovery circuit for BPSK modulation
+		\subitem Shannon-Hartley eqn
 	\item Question 4
 		\subitem Path loss
 	\item Question 5
 		\subitem Cellular systems
 	
 \end{itemize}
+\section{List of block Diagrams}
 
+\section{Cellular systems}
+
+\section{Path Loss}
+
+\section{Receiver Noise}
+
+\section{Shannon Hartley}
 \begin{itemize}
-	\item 
-	]i
+	\item $C=2B$ Where C is the capacity in bps and B is the bandwidth in Hertz
+	\item It assumes only 2 encoding levels are used, i.e. High=1 and low=0
+	\item $C=2Blog_2N$ Where N is the number of encoding levels
+	\item $C=Blog_2\left(1+\frac{S}{N}\right)$Where $\frac{S}{N} $ is the SNR \emph{As a ratio, not as DB}
 \end{itemize}
 \end{multicols}
-Considder compiling exam theory questions into flash cards, current flash cards too many
+Consider compiling exam theory questions into flash cards, current flash cards too many
 \end{document}

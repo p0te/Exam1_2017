@@ -1,0 +1,750 @@
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ltablex} 
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{seqsplit}% http://ctan.org/pkg/seqsplit
+\usepackage{array}
+\usepackage{enumitem}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=15mm,
+ top=20mm,
+ }
+ 
+\newcounter{count}
+\setcounter{count}{1}
+\setlist{nosep}
+
+\newcommand{\qa}[2]{{\small\thecount)}{#1} & {\small\thecount)} {#2} \\ \stepcounter{count}}
+
+\newcommand{\newheading}[1]{\end{longtable} 
+\textbf{#1}
+\setcounter{count}{1}%comment out not to reset counter at each new heading
+\begin{longtable}{m{250pt} m{250pt}}}
+
+\newcommand{\img}[1]{\includegraphics[width=250pt]{gfx/#1}
+}
+
+
+
+\begin{document}
+
+
+
+
+
+
+ 
+{\huge EERI423 Exam  Flash Cards}
+\large %comment out to make text smaller
+\setlength{\tabcolsep}{0.8em}
+\setlength{\extrarowheight}{0.5em}
+\begin{longtable}{m{250pt} m{250pt}}
+\textbf{Chapter 1}\\
+\qa{In what century did electronic communication begin?}{19th (1800s)} 
+\qa{Name the four main elements of a communication
+system, and draw a diagram that shows their
+relationship.}{
+\begin{itemize}
+	\item Transmitter(TX)
+	\item Receiver(RX)
+	\item Communications Channel or medium
+	\item Noise
+\end{itemize}
+\img{elements.png}
+} 
+\qa{List five types of media used for communication, and
+state which three are the most commonly used.}{
+\begin{itemize}
+	\item Electrical conductors
+	\item Optical media
+	\item Free space
+	\item Water (Less common, used in sonar)
+	\item The earth itself (Less common)
+	\item AC power lines (Less common)
+\end{itemize}
+} 
+\qa{Name the device used to convert an information signal
+to a signal compatible with the medium over
+which it is being transmitted.}{Modulator} 
+\qa{What piece of equipment acquires a signal from a
+communication medium and recovers the original information
+ signal?}{Demodulator} 
+\qa{What is a transceiver?}{A comm device capable of transmitting and receiving} 
+\qa{What are two ways in which a communication medium
+can affect a signal?}{Attenuation and noise} 
+\qa{What is another name for communication medium?}{ A communication channel} 
+\qa{What is the name given to undesirable interference
+that is added to a signal being transmitted?}{Noise} 
+\qa{Name three common sources of interference.}{
+\begin{itemize}
+	\item Solar Flares
+	\item Other signals with the same freq
+	\item NEED ONE MORE 
+\end{itemize}
+} 
+\qa{What is the name given to the original information or
+intelligence signals that are transmitted directly via a
+communication medium?}{Baseband transmission} 
+\qa{Name the two forms in which intelligence signals can
+exist}{Analog and digital} 
+\qa{What is the name given to one-way communication?
+Give three examples.}{Simplex communication: 
+\begin{itemize}
+	\item Radio Broadcasting
+	\item TV Broadcasting
+	\item Remote control
+\end{itemize}
+} 
+\qa{What is the name given to simultaneous two-way
+communication? Give three examples}{Full Duplex communication:
+\begin{itemize}
+	\item Telephone 
+	\item VOIP 
+\end{itemize}
+} 
+\qa{What is the term used to describe two-way communication
+in which each party takes turns transmitting?
+Give three examples.}{Half Duplex communication: 
+\begin{itemize}
+	\item Ham Radio
+	\item Military radio
+	\item CB radio
+\end{itemize}
+} 
+\qa{What type of electronic signals are continuously varying
+voice and video signals?}{Analog} 
+\qa{What are on/off intelligence signals called?}{Digital intelligence signals} 
+\qa{How are voice and video signals transmitted digitally?}{By using an A/D converter} 
+\qa{What terms are often used to refer to original voice,
+video, or data signals?}{Original intelligence signal} 
+\qa{What technique must sometimes be used to make an
+information signal compatible with the medium over
+which it is being transmitted?}{Modulation} 
+\qa{What is the process of recovering an original signal called?}{Demodulation} 
+\qa{What is a broadband signal?}{A signal modulated with a higher freq} 
+\qa{Name the process used to transmit two or more base-
+band signals simultaneously over a common medium}{Multiplexing} 
+\qa{Name the technique used to extract multiple intelligence
+signals that have been transmitted simultaneously
+over a single communication channel}{Demultiplexing} 
+\qa{What is the name given to signals that travel through
+free space for long distances}{Radio Waves} 
+\qa{What does a radio wave consist of?}{A carrier and intelligence signal} 
+\qa{Calculate the wavelength of signals with frequencies
+of 1.5 kHz, 18 MHz, and 22 GHz in miles, feet, and
+centimeters, respectively}{$\lambda = \frac{1}{f}*c $ Where c is the speed of light } 
+\qa{Why are audio signals not transmitted directly by
+electromagnetic waves?}{The frequencies cannot be transmitted efficiently} 
+\qa{What is the human hearing frequency range?}{20 to 20kHz} 
+\qa{What is the approximate frequency range of the hu-
+man voice}{300 to 3kHz} 
+\qa{Do radio transmissions occur in the VLF and LF
+ranges?}{Yes, used for submarines} 
+\qa{What is the frequency range of AM radio broadcast
+stations?}{535 to 1605 kHz} 
+\qa{What is the name given to radio signals in the
+high-frequency range?}{short waves} 
+\qa{In what segment of the spectrum do TV channels 2 to
+13, and FM broadcasting, appear?}{Very high frequencies (VHFs)} 
+\qa{List five major uses of the UHF band.}{
+	\begin{itemize}
+		\item Mobile radio
+		\item Marine and aeronautical comms
+		\item UHF TV channels 14 through 51
+		\item Land mobile comms
+		\item military communication
+	\end{itemize}
+} 
+\qa{What are frequencies above 1 GHz called}{Mocrowaves} 
+\qa{What are the frequencies just above the EHF range
+called?}{Millimeter waves} 
+\qa{What is a micrometer, and what is it used to measure?}{} 
+\qa{Name the three segments of the optical frequency
+spectrum.}{$1*10^-6m$. Used to measure infrared wavelengths} 
+\qa{What is a common source of infrared signals?}{LED's and lasers} 
+\qa{What is the approximate spectrum range of infrared
+signals?}{700-1000nm} 
+\qa{Define the term angstrom and explain how it is used.}{$\dot{A} = 10^{-10}m$} 
+\qa{What is the wavelength range of visible light?}{400-800nm} 
+\qa{Which two channels or media do light signals use for
+electronic communication?}{Fibre optics} 
+\qa{Name two methods of transmitting visual data over a
+telephone network}{Fax } 
+\qa{What is the name given to the signaling of individuals
+at remote locations by radio?}{Cellular radio} 
+\qa{What term is used to describe the process of making
+measurements at a distance?}{telemetry} 
+\qa{List four ways radio is used in the telephone system.}{
+\begin{itemize}
+	\item Cordless Telephones
+	\item Cell pones
+	\item Satellite phones
+	\item VOIP over wifi
+\end{itemize}
+} 
+\qa{What principle is used in radar?}{Doppler effect} 
+\qa{What is underwater radar called? Give two examples.}{Sonar} 
+\qa{What is the name of a popular radio communication
+hobby?}{Ham Radio} 
+\qa{What device enables computers to exchange digital
+data over the telephone network}{A modem} 
+\qa{What do you call the systems of interconnections of
+PCs and other computers in offices or buildings?}{LAN} 
+\qa{What is a generic synonym for radio?}{Wireless} 
+\qa{Name the three main types of technical positions
+available in the communication field}{Engineer, Technician and sales } 
+\qa{What is the main job of an engineer?}{Engineers design communication equipment and systems} 
+\qa{What is the primary degree for an engineer?}{B.S.E.E} 
+\qa{What are the four main segments of the communication
+ industry? Explain briefly  the function of each}{
+ \begin{itemize}
+ 	\item Manufacture
+ 	\item Sales
+ 	\item Services
+ 	\item End Users
+ \end{itemize}
+ } 
+\qa{Why are standards important?}{To ensure compatibility between systems} 
+\qa{What types of characteristics do communication standards
+define?}{modulation methods, frequency of operation, multiplexing methods,
+word length and bit formats, data transmission speeds, line coding methods, and cable and
+connector types} 
+\newheading{Chapter 2}
+\qa{What happens to capacitive reactance as the frequency
+of operation increases?}{An increase in Frequency decreases $X_c$, remember, A capacitor is an open circuit in DC conditions} 
+\qa{As frequency decreases, how does the reactance of a
+coil vary?}{A decrease in Frequency will decrease $X_L$, remember that an inductor is an short circuit under DC conditions} 
+\qa{What is skin effect, and how does it affect the Q of a
+coil?}{The fact that electrons flow on or near the surface of a conductor. At high frequency this decreases the cross sectional area of the resistor, increasing resistance.} 
+\qa{What happens to a wire when a ferrite bead is placed
+around it?}{It creates an inductor} 
+\qa{What is the name given to the widely used coil form
+that is shaped like a doughnut?}{Toroid} 
+\qa{Describe the current and impedance in a series RLC
+circuit at resonance.}{At resonance, $X_C$ and $X_L$ are equal and the total reactance is a minimum} 
+\qa{Describe the current and impedance in a parallel RLC
+circuit at resonance.}{At resonance, $X_C$ and $X_L$ are equal and the total reactance is a maximum} 
+\qa{State in your own words the relationship between Q
+and the bandwidth of a tuned circuit.}{The bandwidth of a circuit is inversely proportional to the circuit Q.
+The higher the Q, the smaller
+the bandwidth. Low Q values
+produce wide bandwidths or
+less selectivity.} 
+\qa{What kind of filter is used to select a single signal frequency from many signals?}{Band pass filter} 
+\qa{What kind of filter would you use to get rid of an annoying 120-Hz hum?}{Band reject or notch filter} 
+\qa{What does selectivity mean}{A lower bandwidth makes a circuit more selective} 
+\qa{State the Fourier theory in your own words.}{Any wave can be described as the sum of a series of sine waves} 
+\qa{Define the terms time domain and frequency domain.}{The time domain compares amplitude and time. The frequency domain describes the amplitudes of the sinusoidal signals added to make a given signal. It can therefore be said to compare frequency and amplitude} 
+\qa{Write the first four odd harmonics of 800 Hz}{
+\begin{itemize}
+	\item 2400Hz
+	\item 4000Hz
+	\item 5600Hz
+\end{itemize}
+} 
+\qa{What waveform is made up of even harmonics only?}{Square Wave} 
+\qa{What waveform is made up of odd harmonics only?}{Half sine wave} 
+\qa{Why is a nonsinusoidal signal distorted when it passes
+through a filter?}{Because some harmonics are filtered out} 
+
+\newheading{Chapter 3}
+\qa{What mathematical operation does an amplitude modulator
+ perform?}{Multiplication} 
+\qa{What type of response curve must a device that produces
+amplitude modulation have?}{Square law response curve} 
+\qa{Describe the two basic ways in which amplitude
+modulator circuits generate AM.}{One type of AM circuit varies the gain of the amplifier or the attenuation of the voltage divider according to the modulating signal plus 1. Another applies the product of the carrier and modulating signals to a nonlinear component or circuit. A parallel
+tuned circuit resonant at the carrier frequency, with a bandwidth wide enough to filter out the modulating signal as well as the second and higher harmonics of the carrier, can be used to produce an AM wave.} 
+\qa{What type of semiconductor device gives a near-perfect
+square-law response?}{diode} 
+\qa{Which four signals and frequencies appear at the output
+of a low-level diode modulator?}{carrier, modulating, upper, and lower sidebands} 
+\qa{Which type of diode would make the best (most sensi-
+tive) AM demodulator?}{a germanium diode is used because its voltage threshold is lower than that of a
+silicon diode and permits reception of weaker signals.} 
+\qa{Why does an analog multiplier make a good AM
+modulator?}{Because it uses differential amplifiers, an outputs the true product of the sine waves} 
+\qa{What kind of amplifier must be used to boost the power
+of a low-level AM signal?}{differential amplifier} 
+\qa{To what stage of a transmitter does the modulator
+connect in a high-level AM transmitter?}{The final amplifier stage} 
+\qa{What is the simplest and most common technique for
+demodulating an AM signal?}{diode detector} 
+\qa{What is the most critical component value in a diode
+detector circuit? Explain.}{The Resonant frequency } 
+\qa{What is the basic component in a synchronous detector?
+What operates this component?}{A generated signal from a clock} 
+\qa{What signals does a balanced modulator generate?
+Eliminate?}{generates a DSB signal, suppressing the carrier and leaving only the sum and difference frequencies at the output; the output of the modulator can be further processed by filters or phase­shifting circuitry to eliminate one of the sidebands, resulting in an SSB signal} 
+\qa{What type of balanced modulator uses transformers
+and diodes?}{} 
+\qa{What is the most commonly used filter in a filter-type
+SSB generator?}{} 
+\qa{What is the most dificult part of producing SSB for
+voice signals by using the phasing methods?}{} 
+\qa{Which type of balanced modulator gives the greatest
+carrier suppression?}{} 
+\qa{What is the name of the circuit used to demodulate an
+SSB signal?}{} 
+\qa{What signal must be present in an SSB demodulator
+besides the signal to be detected?}{the carrier oscillator frequency} 
+\newheading{Chapter 5}
+\qa{What is the general name given to both FM and PM?}{Angle Modulation} 
+\qa{State the effect on the amplitude of the carrier during
+FM or PM.}{} 
+\qa{What are the name and mathematical expressions for
+the amount that the carrier varies from its unmodulated
+center frequency during modulation?}{FM is proportional only to the amplitude of the modulating signal regardless of its frequency. In FM, the frequency of the modulating signal determines how many times per second the carrier frequency deviates above and below it nominal center frequency. PM, the amount of phase shift of a constant­frequency carrier is varied in accordance with a modulating signal, and the carrier frequency deviation is proportional to both the modulating frequency and the amplitude.} 
+\qa{State how the frequency of a carrier varies in an FM
+system when the modulating signal amplitude and
+frequency change.}{As the modulating signal amplitude increases, the carrier frequency increases. If the amplitude of the modulating signal decreases, the carrier frequency decreases. The reverse relationship can be also be implemented. A decreasing modulating signal increases the carrier frequency above its center value, whereas an increasing modulating signal decreases the carrier frequency below its center value. As the modulating signal amplitude varies, the carrier frequency varies above and below its normal center, or resting, frequency with no modulation.} 
+\qa{State how the frequency of a carrier varies in a PM
+system when the modulating signal amplitude and
+frequency change.}{As the modulating signal goes positive, the amount of phase lag, and thus the delay of the carrier output, increases with the amplitude of the modulating signal. The result at the output is the same as that if the constant­frequency carrier signal had been stretched out or had it frequency lowered. When the modulating signal goes negative, the phase shift becomes leading. This causes the carrier sine wave to be effectively speeded up, or compressed. The result is the same as if the carrier frequency has been increased} 
+\qa{When does maximum frequency deviation occur in an
+FM signal? A PM signal?}{For FM maximum frequency deviation occurs at the maximum amplitude of the modulating signal. For PM the maximum frequency deviation is when the modulating signal is changing most quickly, for a sine wave modulating signal, that time is when the modulating wave changes from plus to minus or from minus to plus.} 
+\qa{State the conditions that must exist for a phase modula-
+tor to produce FM}{deviation produced by frequency variations in the
+modulating signal must be compensated for.} 
+\qa{What do you call FM produced by PM techniques?}{Indirect FM} 
+\qa{State the nature of the output of a phase modulator
+during the time when the modulating signal voltage is
+constant.}{Amplitude is constant as always, frequency is carrier frequency and the phase difference is constant, according to the constant voltage} 
+\qa{What is the name given to the process of frequency
+modulation of a carrier by binary data?}{FSK} 
+\qa{What is the name given to the process of phase modula-
+tion of a carrier by binary data?}{PSK} 
+\qa{How must the nature of the modulating signal be
+modii ed to produce FM by PM techniques?}{deviation produced by frequency variations in the
+modulating signal must be compensated for.} 
+\qa{What is the difference between the modulation index
+and the deviation ratio?}{} 
+\qa{Define narrowband FM. What criterion is used to indi-
+cate NBFM?}{the FM signal occupies no more spec-
+trum space than an AM signal.} 
+\qa{What is the name of the mathematical equation used to
+solve for the number and amplitude of sidebands in an
+FM signal?}{Besel functions} 
+\qa{What is the meaning of a negative sign on the sideband
+value in Fig. 5-8?}{a Phase shift of 180$^o$} 
+\qa{Name two ways that noise affects an FM signal}{} 
+\qa{How is the noise on an FM signal minimized at the
+receiver?}{limiter circuits that deliberately restrict the amplitude of the received signal. Any amplitude variations occurring on the FM signal are effectively clipped off. This does not affect the information content of the FM signal, since it is contained solely within the frequency variations of the carrier. Because of the clipping action of the limiter circuits, noise is almost completely eliminated. Even if the peaks of the FM signal itself are clipped or flattened and the resulting signal is distorted, no information is lost.} 
+\qa{What is the primary advantage of FM over AM?}{	
+its superior immunity to noise} 
+\qa{List two additional advantages of FM over AM.}{Capture Effect ­ interfering signals on the same frequency are effectively rejected; If one signal is more than twice the amplitude of the other, the stronger signal captures the channel, totally eliminating the weaker signal.
+Transmitter Efficiency ­ FM signals have a constant amplitude, and it is therefore not necessary to use linear amplifiers to increase their power level.} 
+\qa{What is the nature of the noise that usually accompa-
+nies a radio signal?}{} 
+\qa{In what ways is an FM transmitter more efi cient than a
+low-level AM transmitter? Explain.}{An FM transmitter is more efficient because the signals are already generated at a low level signal once combined with a series of highly efficient amplifiers the signal become more efficient than any low­level AM tansmitter} 
+\qa{What is the main disadvantage of FM over AM? State
+two ways in which this disadvantage can be overcome.}{Excessive Spectrum Use and Circuit Complexity} 
+\qa{What type of power amplifier is used to amplify FM
+signals? Low-level AM signals?}{} 
+\qa{What is the name of the receiver circuit that eliminates
+noise?}{} 
+\qa{What is the capture effect and what causes it?}{capture effect is the effect caused by two or more FM signals occurring simultaneously on the same frequency. The stronger signal captures the channel, eliminating the weaker channel.} 
+\qa{What is the nature of the modulating signals that are
+most negatively affected by noise on an FM signal?}{} 
+\qa{Describe the process of preemphasis. How does it improve
+communication performance in the presence of noise?
+Where is it performed, at the transmitter or receiver?}{} 
+\qa{What is the basic circuit used to produce preemphasis?}{} 
+\qa{Describe the process of deemphasis. Where is it
+performed, at the transmitter or receiver?}{} 
+\qa{What type of circuit is used to accomplish deemphasis?}{} 
+\qa{What is the cutoff frequency of preemphasis and deem-
+phasis circuits?}{} 
+\qa{List four major applications for FM}{FM radio, Cellular Telephone, FM Stereo Multiplex Sound, VCR} 
+\newheading{Chapter 7}
+\qa{Name the four primary benei ts of using digital tech-
+niques in communication. Which of these is probably
+the most important?}{} 
+\qa{What is data conversion? Name two basic types.}{} 
+\qa{What is the name given to the process of measuring the
+value of an analog signal at some point in time?}{} 
+\qa{What is the name given to the process of assigning a
+specii c binary number to an instantaneous value on an
+analog signal?}{} 
+\qa{What is another name commonly used for A/D
+conversion?}{} 
+\qa{Describe the nature of the signals and information obtained
+when an analog signal is converted to digital form}{} 
+\qa{Describe the nature of the output waveform obtained
+from a D/A converter}{} 
+\qa{Name the four major components in a D/A converter.}{} 
+\qa{Define aliasing and explain its effect in an A/D
+converter.}{} 
+\qa{What types of circuits are commonly used to translate
+the current output from a D/A converter to a voltage
+output?}{} 
+\qa{Name three types of A/D converters, and state which is
+the most widely used}{} 
+\qa{What A/D converter circuit sequentially turns the bits
+of the output on one at a time in sequence from MSB to
+LSB in seeking a voltage level equal to the input volt-
+age level}{} 
+\qa{What is the fastest type of A/D converter? Briel y de-
+scribe the method of conversion used}{} 
+\qa{Define oversampling and undersampling.}{} 
+\qa{What circuit is normally used to perform serial-to-
+parallel and parallel-to-serial data conversion? What is
+the abbreviation for this process?}{} 
+\qa{What circuit performs the sampling operation prior to
+A/D conversion, and why is it so important?}{} 
+\qa{Where are sigma-delta converters used? Why?}{} 
+\qa{Undersampling produces an aliasing effect that is
+equivalent to what analog signal process?}{} 
+\qa{What is the name given to the process of compressing
+the dynamic range of an analog signal at the transmitter
+and expanding it later at the receiver?}{} 
+\qa{What is the general mathematical shape of a compand-
+ing curve?}{} 
+\qa{Name the three basic types of pulse modulation. Which
+type is not binary?}{} 
+\qa{Name the DAC that produces a voltage output}{} 
+\qa{What type of DAC is used for very high-speed conversions?}{} 
+\qa{True or false? ADC outputs or DAC inputs may be
+either parallel or serial.}{} 
+\qa{What type of ADC is faster than a successive-approxi-
+mations converter but slower than a l ash converter?}{} 
+\qa{Which type of ADC gives the best resolution?}{} 
+\qa{Why are capacitor D/A converters preferred over R-2R
+D/A converters?}{} 
+\qa{What does oversampling mean? What converter uses
+this technique? Why is it used?}{} 
+\qa{How is aliasing prevented?}{} 
+\qa{Name two common noncommunication applications
+for PWM}{} 
+\qa{Describe briel y the techniques known as digital signal
+processing (DSP).}{} 
+\qa{What types of circuits perform DSP?}{} 
+\qa{Briel y describe the basic mathematical process used in
+the implementation of DSP}{} 
+\qa{Give the names for the basic architecture of non-DSP
+microprocessors and for the architecture normally used in DSP microprocessors. Briel y describe the difference
+between the two.}{} 
+\qa{Name i ve common processing operations that take
+place with DSP. What is probably the most commonly
+implemented DSP application?}{} 
+\qa{Briel y describe the nature of the output of a DSP
+processor that performs the discrete Fourier transform
+or the fast Fourier transform}{} 
+\qa{Name the two types of filters implemented with DSP
+and explain how they differ.}{} 
+\qa{What useful function is performed by an FFT
+computation?}{} 
+\newheading{Chapter 8}
+ \qa{What circuits are typically part of every radio
+transmitter?}{Oscillators, amplifiers, frequency multipliers, and impedance matching networks.} 
+ \qa{Which type of transmitter does not use class C amplifiers?}{Single­Sideband (SSB) transmitter} 
+ \qa{For how many degrees of an input sine wave does a
+class B amplifier conduct}{180} 
+ \qa{What is the name given to the bias for a class C ampli-
+i er produced by an input RC network}{Signal Bias} 
+ \qa{Why are crystal oscillators used instead of LC oscilla-
+tors to set transmitter frequency?}{The only oscillator capable of meeting the preci-
+sion and stability demanded by the FCC is a crystal oscillator.} 
+ \qa{What is the most common way to vary the output fre-
+quency of a crystal oscillator?}{frequency of vibration is determined primarily by the thickness of the crystal.} 
+ \qa{How is the output frequency of a frequency of a PLL
+synthesizer changed?}{ by varying the frequency division ratio.} 
+ \qa{What are prescalers, and why are they used in VHF and
+UHF synthesizers?}{A prescaler is a high-frequency divider circuit,
+usually in IC form, that is connected between
+the VCO output and the input to the
+programmable frequency divider used in the
+feedback loop of a PLL. It is used because
+programmable frequency dividers are usually
+not capable of operating at the higher VCO
+frequency.} 
+ \qa{What is the purpose of the loop filter in a PLL?}{ The loop filter smoothes the output of the phase
+detector into a varying direct current to control
+the VCO frequency.} 
+ \qa{What circuit in a direct digital synthesizer (DDS) actu-
+ally generates the output waveform?}{Digital-to-analog converter (DAC) and low pass
+filter (LPF)} 
+ \qa{In a DDS, what is stored in ROM}{The ROM stores binary values representing sine
+wave values at equal degree spacings.} 
+ \qa{How is the output for frequency of a DDS changed?}{Change the binary value in the phase increment
+counter.} 
+ \qa{What is the most efi cient class of RF power amplifier?}{Class D or E.} 
+ \qa{What is the approximate maximum power of typical
+transistor RF power amplifiers?}{ For individual transistors, 500 W or so; for
+multiple transistors, several thousand watts.} 
+ \qa{Define power-added efi ciency.}{Parasitics are very-high-frequency oscillations
+unrelated to the operating frequency that can
+occur in RF amplifiers because of stray
+inductances and capacitances. They are
+normally eliminated by connecting a small value
+of resistor or parallel RL circuit in series with
+the base or collector leads in the problem
+amplifier. A ferrite bead on the appropriate lead
+can also solve the problem} 
+ \qa{What is the main advantage and disadvantage of
+switching amplifiers?}{High efficiency, low heat generation, and simple
+circuits.} 
+ \qa{What is the difference between a class D and a class E
+amplifier?}{ Both are switching-type amplifiers, but class D
+uses two transistors and dual power supplies,
+whereas the class E amplifier uses a single
+supply and transistor.} 
+ \qa{Explain how an envelope tracking power amplifier
+works}{} 
+ \qa{Explain how a feedforward power amplifier reduces
+distortion}{ A feedforword power amplifier generates the
+amplified signal with and without distortion and
+subtracts out the distortion(harmonics) before
+being sent to the output} 
+ \qa{In a predistortion power amplifier, what is the feedback
+signal?}{The feedback is a sample of the amplified output
+signal with distortion.} 
+ \qa{ Maximum power transfer occurs when what relation-
+ship exists between generator impedance $Z _i$ and load
+impedance $Z _L$?}{When they equal} 
+ \qa{What is a toroid and how is it used? What components
+are made from it?}{ A toroid is a donut-shaped magnetic core used to
+make inductors, transformers, and baluns.} 
+ \qa{What are the advantages of a toroid RF inductor?}{Toroids do not radiate their magnetic field like
+other coils. Most of the magnetic field is confined
+to the core. The high permeability of the core
+permits higher-value inductors to be made with
+fewer turns of wire than in an air core coil.} 
+ \qa{In addition to impedance matching, what other important function do LC networks perform?}{} 
+ \qa{What is the name given to a single winding trans-
+former?}{Autotransformer.} 
+ \qa{What is the name given to an RF transformer with a
+1 : 1 turns ratio connected so that it provides a 1 : 4
+or 4 : 1 impedance matching? Give a common
+application}{ Balun. A common application is to convert
+balanced outputs to unbalanced (grounded)
+loads or unbalanced outputs to balanced
+(ungrounded) loads.} 
+ \qa{Why are untuned RF transformers used in power
+amplifiers?}{So that the amplifier will amplify signals over a
+wide frequency range} 
+ \qa{How is impedance matching handled in a broadband
+linear RF amplifier?}{} 
+ \qa{What are the common impedance-matching ratios of
+transmission line transformers used as baluns?}{ 1:1, 1:4, 1:9, 1:16, 1:25.} 
+ \qa{Why are $\pi$ and T networks preferred over L networks?}{ Higher Q or Q selected for a specific bandwidth.
+Improved selectivity and minimized harmonics} 
+\newheading{ST2 FLASH CARDS}
+\newheading{Describe and compare different types of multiplexing}
+\qa{Broadly define Multiplexing}{Multiplexing is the process of simultaneously transmitting two or more individual signals
+over a single communication channel, cable or wireless.} 
+\qa{Name 2 basic methods of multiplexing}{
+\begin{itemize}
+	\item Frequency Division Multiplexing
+	\item Time division Multiplexing
+\end{itemize}
+} 
+\qa{Briefly describe each of these methods}{
+\begin{itemize}
+	\item FDM divides a channel's bandwidth into several narrower bands, and assigns each multiplexed signal one of these bands
+	\item TDM Allows each signal to occupy the entire channel bandwidth for a brief time. 
+	
+\end{itemize}
+} 
+\qa{In words, describe the black diagram for a FDM multiplexer}{Each channel is modulated by its own modulator, using a unique carrier. These modulated signals are then summed and transmitted} 
+\qa{Draw the block diagram for a FDM multiplexer}{\img{FDM_MUX}} 
+\qa{Explain the block diagram for an FDM demuxer in words}{The first demodulator recovers the composite signal as output by the summer. For each output, the signal is passed through a bandpass filter centered aroun the unique carrier, before demodulating the signal to Recover each original input  } 
+\qa{Draw the block diagram for an FDM demuxer}{\img{FDM_DEMUX}} 
+\qa{List 3 applications for FDM}{
+\begin{itemize}
+	\item Telemetry
+	\item Cable TV
+	\item FM Stereo Broadcasting
+\end{itemize}
+} 
+\qa{In TDM, what is produced by simply sampling each input for a short time}{PAM} 
+\qa{How was PAM achieved in early telemetry systems}{By making use of a commutator switch} 
+\qa{What is a commutator switch}{A basic mechanical switch that rotates an arm to touch different contacts one after the other} 
+\qa{Which two constraints dictated the design of such a switch}{The speed of rotation and duration of contact} 
+\qa{briefly explain the operation of a TDM demuxer}{The signals are recovered using synchronized clocks and low pass filters } 
+\qa{what is the most popular form of TDM}{PCM} 
+\newheading{PCM IGNORE, DELETED}
+\qa{Define PCM}{Pulse code Modulation} 
+\qa{What is the main constraint of PCM}{It cannot transmit Analog data, so ADC's have to be used} 
+\qa{In words, describe the block diagram of a PCM muxer}{
+\begin{itemize}
+	\item ADC's are used, if the input is analog
+	\item A Digital MUX circuit receives the digital inputs, as well as decoded clock pulses
+	\item This signal is transmitted
+\end{itemize}
+} 
+\qa{Draw the block diagram of the Digital Muxer in the above block diagram}{\img{PCM_MUX}} 
+\qa{List x advantages of PCM}{
+\begin{itemize}
+	\item Reliable
+	\item Inexpensive
+	\item Resistant to noise
+		\subitem All pulses have the same amplitude
+		\subitem Frequency, phase shape, etc. do not effect the demuxing, since only a pulse needs to be identified
+\end{itemize}
+} 
+
+\newheading{Explain the relationship between bandwidth and bit rate}
+\qa{What are the 2 most common media used for electronic communication}{Radio and Wire Cable} 
+\qa{What constrains the bandwidth of a cable}{The physical charachteristics of the cable}
+\qa{How does this limitation work}{All cables act as low pass filters because they have inductance, capacitance and resistance} 
+\qa{What is the typical bandwidth of a coaxial cable}{200-300MHz for smaller cables and 500 MHz to 50 GHz for larger cables} 
+\qa{What is the typical bandwidth of a Twisted pair cable}{from a few Kilohertz to over 800Mhz} 
+\qa{What constrains the bandwidth in free space}{The amount of bandwidth allocated by the governing body(ICASA) in south africa} 
+\qa{What Law relates the information capacity of a channel to the bandwidth}{Hartley's law} 
+\qa{State this law, in its most basic form}{$C=2B$ Where C is the capacity in bps and B is the bandwidth in Hertz} 
+\qa{What is the limitation of the law in this form}{It assumes only 2 encoding levels are used, i.e. High=1 and low=0} 
+\qa{State the law so that it allows for more encoding levels}{$C=2Blog_2N$ Where N is the number of encoding levels} 
+\qa{What is the implication of this form of the law}{That More encoding levels enable a higher bit rate over the same bandwidth} 
+\qa{What is the limitation of this second form of this law}{It ignores noise, implying that more encoding levels are always better} 
+\qa{State the law in a form that takes noise into account}{$C=Blog_2\left(1+\frac{S}{N}\right)$Where $\frac{S}{N} $ is the SNR \emph{As a ratio, not as DB}} 
+
+
+\newheading{Explain the operation and benefits of spread spectrum}
+\qa{Define wideband Modulation}{To occupy more bandwidth than the information signal with the modulating signal} 
+\qa{What are the 2 most widely used methods to achieve wideband modulation}{Spread spectrum and Orthogonal Frequency division multiplexing} 
+\qa{Briefly discuss the development of spread spectrum }{After WW2, it was developed by the military for security and immunity to jamming} 
+\qa{Name 3 common applications of SS, and state which is the most common}{
+\begin{itemize}
+	\item LAN and PC modems
+	\item A class of cordless telephones
+	\item Cellular telephones(Most common)
+\end{itemize}
+} 
+\qa{Name the 2 basic methods to apply spread spectrum}{Direct Sequence and Frequency hopping} 
+\qa{List 5 advantages of Spread spectrum}{
+\begin{itemize}
+	\item Security
+	\item Resistance to jamming and interference
+	\item Band Sharing
+	\item Resistance to fading and multipath propagation
+	\item Precise timing
+	]i
+\end{itemize}
+} 
+\qa{Briefly explain the operation of a frequency hopping SS transmitter}{The serial binary input is mixed with a frequency that is dictated by a Pseudorandom code generator } 
+\qa{What is meant by pseudorandom}{A binary sequence that repeats after many bit changes, which is random enough to prevent someone accidentally duplicating the code, but predictable enough to be duplicated at the receiver. } 
+
+\newheading{Define the Characteristic of radio Waves}
+\qa{Which 3 attributes of radio waves describe the way the waves interact with obstacles}{Reflection , refraction and diffraction} 
+COME BACK TO THIS ONE
+\newheading{Calculate the signal strength of a radio wave at a given point}
+\emph{It is important to do several examples here}
+\qa{State the formula for power density at a given distance from a poins source	}{$P_d = \frac{P_t}{4 \pi d^2} $ Where: $P_d$ = Power density; $P_t$ = power transmitted; and $d$ = distance} 
+\qa{What is the limitation with this formula}{Power density is not as usable a figure as power received} 
+\qa{State the formula that overcomes this}{$P_r = \frac{P_tG_tG_r \lambda^2}{16 \pi^2 d^2}$ Where: 
+\begin{itemize}
+	\item $\lambda$: Signal Wavelength
+	\item $d$: Distance from Transmitter
+	\item $P_r, P_t$: Received and transmitted power, respectively
+	\item $G_r, G_T$: receiver and transmitter antenna gains expressed as a power
+ratio and referenced to an isotropic source
+\end{itemize}
+} 
+\qa{question}{answer} 
+
+
+
+
+
+\newheading{use various channel models, and propagation equations to determine the communication range}
+\qa{State the formula for calculating the maximum communication distance for line of sight propagation}{$d = \sqrt{17h_t} + \sqrt{17h_r}$ where:
+	\begin{itemize}
+		\item $d$ is the maximum communication distance in km
+		\item $h_t, h_r$ are the heights of the TX and RX antennae
+	\end{itemize}
+} 
+
+
+
+\newheading{Name and describe the components of conventional electrical telephones}
+\qa{Name the 5 basic components that connect a long distance phone call}{
+\begin{itemize}
+	\item The first telephone set
+	\item Local loop 1
+	\item Long distance system
+	\item local loop 2
+	\item Second telephone set
+\end{itemize}
+} 
+\qa{Name and describe the 5 parts of a basic telephone set }{
+\begin{description}
+	\item[Ringer] Bell or oscillator that rings 
+	\item[Hybrid] Transformer that converts signals from the four TX and RX lines to a signal suitable for a single twisted pair. The hybrid performs the full duplex comms on the twisted pair
+	\item[Hook Switch] Switch usually actuated by the handset that isolates the telephone from the central office loop
+	\item[Dialing circuits] Circuits that enable the telephone to dial specific numbers
+	\item[Handset] Contains a mic and speaker for the user
+\end{description}
+} 
+
+
+
+\newheading{Describe the hierarchy of telephone signals using a block diagram}
+\qa{To what is a residential line connected}{A central office} 
+\qa{And to what is this entity connected}{A local exchange carrier} 
+\qa{If the call is long distance, what is the next step, and where is this connection}{The LEC connects to in IXC( interexchange carrier ) at a POP (Point of persistence)} 
+\qa{draw the diagram that illustrates the heirarchy of telephone signals}{\img{heirarchy}} 
+\newheading{Describe a common second generation cell phone}
+\qa{How did the very first cell phone communicate}{Using analogue FM techniques} 
+\qa{What name is given to the first Digital cell phones?}{Second generation, or 2G phones} 
+\qa{Which 2 classes of 2g phones are in use today}{GSM and CDMA}
+\qa{Which multipexing technique do these systems empoy }{
+\begin{description}
+	\item[GSM] Time division multiplexing 
+	\item[CDMA] Spread Spectrum
+\end{description}
+} 
+\qa{State and describe the 3 basic parts of a typical 2G handset}{
+\begin{description}
+	\item[RF section] Modulates and demodulates the digital baseband signal
+	\item[Baseband section] Performs DSP in the base band and performs A/D and D/A conversions
+	\item[Control] Houses HMI, RAM etc and controls other 2 sections.
+\end{description}
+} 
+\newheading{Describe the block diagram architecture of a 3G cell phone}
+\newheading{Describe the architecture and operation of a GSM cellular network.}
+\qa{Why is a GSM network called a ``Cell network''}{Because base stations form the heart of the network, and are configured in a cellular fashion } 
+\qa{}{answer}
+
+ 
+\newheading{EXAM ADDITIONS}
+\newheading{Cellular systems}
+\newheading{Block Diagrams}
+\newheading{Receiver noise calculations}
+\qa{Give 2 solutions for the problem of image frequency in RF frequency}{answer} 
+\qa{List all the sources of INternal and external noise in Receivers}{answer} 
+\newheading{Shannon Hartley equations}
+\qa{Define Resolution w.r.t A/D conversion}{The smallest value recognized by the converter. Given by $\frac{v_{ref}}{2^N}$ } 
+\qa{Define Quantization Noise w.r.t A/D conversion}{The noise added by the converter (due to the difference between the analog an digital values)}
+\qa{Define Dynamic range w.r.t A/D conversion}{A measure of the range of input voltages that can be converted by an
+A/D, determined by the ratio of the maximum input voltage to the minimum recognizable
+voltage converted to decibels}
+
+\newheading{Power Budgets}
+\newheading{Theory in the gaps}
+\qa{Differentite between baseband and broadband}{answer} 
+\qa{List the basic elemnts of every communication channel and draw a digram showing their relationship}{\begin{itemize}
+	\item Transmitter(TX)
+	\item Receiver(RX)
+	\item Communications Channel or medium
+	\item Noise
+\end{itemize}
+\img{elements.png}} 
+\qa{Define a SDR}{answer} 
+\qa{Discuss Automatic Gain control}{answer} 
+\qa{discuss Insertion Loss}{answer} 
+\qa{FDD vs TDD}{answer} 
+\qa{define ODFM}{answer} 
+\qa{define FDMA}{answer} 
+\qa{define TDMA}{answer} 
+\qa{define CDMA}{answer} 
+\end{longtable}
+\end{document}
