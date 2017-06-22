@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  20 JUN 2017 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  21 JUN 2017 17:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -333,24 +333,24 @@ Overfull \hbox (53.9029pt too wide) in alignment at lines 343--367
  []
 
 [7] [8] [9]
-Overfull \hbox (53.9029pt too wide) in alignment at lines 367--410
+Overfull \hbox (53.9029pt too wide) in alignment at lines 367--447
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 410--445
+Overfull \hbox (53.9029pt too wide) in alignment at lines 447--484
  [] [] 
  []
 
 [10] [11]
 Missing character: There is no ­ in font cmr12!
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 445--509
+Overfull \hbox (53.9029pt too wide) in alignment at lines 484--548
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 509--540
+Overfull \hbox (53.9029pt too wide) in alignment at lines 548--579
  [] [] 
  []
 
@@ -358,25 +358,25 @@ Overfull \hbox (53.9029pt too wide) in alignment at lines 509--540
 File: gfx/FDM_MUX.png Graphic file (type png)
 
 <use gfx/FDM_MUX.png>
-Package pdftex.def Info: gfx/FDM_MUX.png used on input line 558.
+Package pdftex.def Info: gfx/FDM_MUX.png used on input line 597.
 (pdftex.def)             Requested size: 250.0pt x 189.77412pt.
 
-Overfull \hbox (10.83325pt too wide) in paragraph at lines 558--558
+Overfull \hbox (10.83325pt too wide) in paragraph at lines 597--597
 []|\OT1/cmr/m/n/9 5) []| 
  []
 
 <gfx/FDM_DEMUX.png, id=56, 615.80063pt x 514.17094pt>
 File: gfx/FDM_DEMUX.png Graphic file (type png)
  <use gfx/FDM_DEMUX.png>
-Package pdftex.def Info: gfx/FDM_DEMUX.png used on input line 560.
+Package pdftex.def Info: gfx/FDM_DEMUX.png used on input line 599.
 (pdftex.def)             Requested size: 250.0pt x 208.7402pt.
 
-Overfull \hbox (10.83325pt too wide) in paragraph at lines 560--560
+Overfull \hbox (10.83325pt too wide) in paragraph at lines 599--599
 []|\OT1/cmr/m/n/9 7) []| 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 541--574
+Overfull \hbox (53.9029pt too wide) in alignment at lines 580--613
  [] [] 
  []
 
@@ -384,100 +384,99 @@ Overfull \hbox (53.9029pt too wide) in alignment at lines 541--574
 <gfx/PCM_MUX.png, id=63, 838.63312pt x 581.17125pt>
 File: gfx/PCM_MUX.png Graphic file (type png)
  <use gfx/PCM_MUX.png>
-Package pdftex.def Info: gfx/PCM_MUX.png used on input line 584.
+Package pdftex.def Info: gfx/PCM_MUX.png used on input line 623.
 (pdftex.def)             Requested size: 250.0pt x 173.24422pt.
 
-Overfull \hbox (10.83325pt too wide) in paragraph at lines 584--584
+Overfull \hbox (10.83325pt too wide) in paragraph at lines 623--623
 []|\OT1/cmr/m/n/9 4) []| 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 574--595
- [] [] 
- []
-
-
-Overfull \hbox (53.9029pt too wide) in alignment at lines 595--611
+Overfull \hbox (53.9029pt too wide) in alignment at lines 613--634
  [] [] 
  []
 
 [16 <./gfx/PCM_MUX.png>]
-Overfull \hbox (53.9029pt too wide) in alignment at lines 611--636
+Overfull \hbox (53.9029pt too wide) in alignment at lines 634--650
+ [] [] 
+ []
+
+
+Overfull \hbox (53.9029pt too wide) in alignment at lines 650--675
  [] [] 
  []
 
 [17]
-Overfull \hbox (53.9029pt too wide) in alignment at lines 636--639
+Overfull \hbox (53.9029pt too wide) in alignment at lines 675--678
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 639--658
+Overfull \hbox (53.9029pt too wide) in alignment at lines 678--697
+ [] [] 
+ []
+
+[18]
+Overfull \hbox (53.9029pt too wide) in alignment at lines 697--707
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 658--668
+Overfull \hbox (53.9029pt too wide) in alignment at lines 707--729
  [] [] 
  []
 
-
-Overfull \hbox (53.9029pt too wide) in alignment at lines 668--690
- [] [] 
- []
-
-[18] <gfx/heirarchy.png, id=77, 782.925pt x 514.17094pt>
+[19] <gfx/heirarchy.png, id=81, 782.925pt x 514.17094pt>
 File: gfx/heirarchy.png Graphic file (type png)
 
 <use gfx/heirarchy.png>
-Package pdftex.def Info: gfx/heirarchy.png used on input line 694.
+Package pdftex.def Info: gfx/heirarchy.png used on input line 733.
 (pdftex.def)             Requested size: 250.0pt x 164.17715pt.
 
-Overfull \hbox (10.83325pt too wide) in paragraph at lines 694--694
+Overfull \hbox (10.83325pt too wide) in paragraph at lines 733--733
 []|\OT1/cmr/m/n/9 4) []| 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 690--695
+Overfull \hbox (53.9029pt too wide) in alignment at lines 729--734
  [] [] 
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 711--711
+Underfull \hbox (badness 2111) in paragraph at lines 750--750
 []\OT1/cmr/m/n/12 Modulates and de-mod-u-lates the
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 695--712
- [] [] 
- []
-
-[19 <./gfx/heirarchy.png>]
-Overfull \hbox (53.9029pt too wide) in alignment at lines 713--718
+Overfull \hbox (53.9029pt too wide) in alignment at lines 734--751
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 721--724
+Overfull \hbox (53.9029pt too wide) in alignment at lines 752--757
+ [] [] 
+ []
+
+[20 <./gfx/heirarchy.png>]
+Overfull \hbox (53.9029pt too wide) in alignment at lines 760--763
  [] [] 
  []
 
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 724--731
+Overfull \hbox (53.9029pt too wide) in alignment at lines 763--770
  [] [] 
  []
 
-[20]
 File: gfx/elements.png Graphic file (type png)
- <use gfx/elements.png>
-Package pdftex.def Info: gfx/elements.png used on input line 740.
+<use gfx/elements.png>
+Package pdftex.def Info: gfx/elements.png used on input line 779.
 (pdftex.def)             Requested size: 250.0pt x 98.59529pt.
 
-Overfull \hbox (53.9029pt too wide) in alignment at lines 732--749
+Overfull \hbox (53.9029pt too wide) in alignment at lines 771--788
  [] [] 
  []
 
-[21] (./main.aux) ) 
+[21] [22] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2588 strings out of 494902
  37263 string characters out of 6180032
@@ -486,23 +485,23 @@ Here is how much of TeX's memory you used:
  7628 words of font info for 27 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,10n,28p,596b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (21 pages, 431624 bytes).
+<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (22 pages, 432657 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
