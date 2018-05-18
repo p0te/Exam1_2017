@@ -1,7 +1,3 @@
-# Welcome to my REII414 Notes, and examples used in the facilitation on wendesdays
+# NOTE: I have created a new repository for the REII414 facilitation at https://github.com/p0te/REII414_2018
 
-Breakdown of past papers and flash cards. Flash cards designed to test yourself by folding the page. Just dowload the .pdf file if you're here on the Guthub site. Feel free to contribute if you know LaTex. 
-
-I've uploaded a minimal example of how to read data from a database and display it in a browser. I've made some changes since the class, so the current file should work out of the box as long as you're serving the saleco database at loacalhost. Another possible problem is the password, wich is either 'root' or empty unless you changed it when setting up the SQL server.
-
-I'm quite busy this week, but will try to prepare a similar minimal example to demonstrate session management. 
+This repo will no longer be kept up to date. I'm just leving it here for this notification
